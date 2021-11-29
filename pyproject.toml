@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "desdeo_tutorial"
+version = "0.1.0"
+description = "The notebooks shown during the DEMO tutorial on DESDEO presented the 1st of December 2021."
+authors = ["Giovanni Misitano <giovanni.a.misitano@jyu.fi>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+desdeo-problem = "^1.3.3"
+desdeo-tools = "^1.5.5"
+desdeo-mcdm = "^1.2.11"
+desdeo-emo = "^1.3.2"
+jupyterlab = "^3.2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
